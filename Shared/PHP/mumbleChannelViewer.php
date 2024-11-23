@@ -110,7 +110,7 @@ class MumbleChannelViewer
 
 		if ($user["userid"] > 0)
 			$output .= "<span class='mumbleChannelViewer-authenticated mumbleChannelViewer-statusIcon'>Authenticated</span>";
-		if ($user["suppress"])
+		if ($user["suppressed"])
 			$output .= "<span class='mumbleChannelViewer-suppressed mumbleChannelViewer-statusIcon'>Suppressed</span>";
 		if ($user["selfDeaf"])
 			$output .= "<span class='mumbleChannelViewer-selfDeafened mumbleChannelViewer-statusIcon'>Self-Deafened</span>";
